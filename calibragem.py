@@ -118,7 +118,7 @@ def calibragem():
                 else:
                     break
 
-                cv2.imshow(window_name, cv2.imread(f'./img_{pos}.png'))
+                cv2.imshow(window_name, cv2.imread(f'img_{pos}.png'))
 
                 lista_gaze_x.append(gaze_x)
                 lista_gaze_y.append(gaze_y)
